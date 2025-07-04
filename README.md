@@ -21,11 +21,13 @@ Automated end-to-end test for verifying cookie consent (e.g., accepting analytic
 
 - Install dependencies:
   pip install -r requirements.txt
-  python -m playwright install
+
+- Install playwright, for windows it's: py -m playwright install
 
 - Running the Test in a single browser:
-  (You can replace chromium by webkit or firefox)
   task test-chromium
 
 - Run in multiple browsers:
   task test-all
+
+- For single browser tests you can replace chromium by webkit or firefox in order to change browsers.
