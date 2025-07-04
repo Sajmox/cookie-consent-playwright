@@ -1,0 +1,7 @@
+[tool.taskipy.tasks]
+test = "pytest"
+test-chromium = "pytest --browser chromium -s"
+test-chromium-debug = "set PWDEBUG=1 && pytest --browser chromium -s"
+test-webkit = "pytest --browser webkit"
+test-firefox = "pytest --browser firefox"
+test-all = "pytest --browser chromium --browser firefox --browser webkit"
