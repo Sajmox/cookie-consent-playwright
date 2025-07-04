@@ -17,7 +17,7 @@ Automated end-to-end test for verifying cookie consent (e.g., accepting analytic
 
 - Clone the repository:
   git clone https://github.com/Sajmox/cookie-consent-playwright.git
-  cd cookie-consent-playwright
+- cd cookie-consent-playwright
 
 - Install dependencies:
   pip install -r requirements.txt
