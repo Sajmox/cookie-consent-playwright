@@ -16,16 +16,16 @@ Automated end-to-end test for verifying cookie consent (e.g., accepting analytic
 3. Installation
 
 - Clone the repository:
-  git clone https://github.com/your-username/cookie-consent-playwright.git
+  git clone https://github.com/Sajmox/cookie-consent-playwright.git
   cd cookie-consent-playwright
 
 - Install dependencies:
   pip install -r requirements.txt
   python -m playwright install
 
-- Running the Test
-  Default (Chromium only)
-  pytest
+- Running the Test in a single browser:
+  (You can replace chromium by webkit or firefox)
+  task test-chromium
 
-- Run in multiple browsers
-  pytest --browser chromium --browser firefox --browser webkit
+- Run in multiple browsers:
+  task test-all
